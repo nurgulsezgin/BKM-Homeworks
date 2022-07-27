@@ -18,7 +18,7 @@ public class CalculationOperations {
         System.out.print("İşlem : ");
         String operator = input.next();
 
-        System.out.print(Calculate(number1, number2, operator));
+        System.out.println(Calculate(number1, number2, operator));
     }
     public static Double Calculate(double number1, double number2, String operator) {
 
